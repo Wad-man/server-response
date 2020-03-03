@@ -1,4 +1,4 @@
-print ('Введите список URL  ')
+print('Введите список URL  ')
 urls = ""
 
 while True:

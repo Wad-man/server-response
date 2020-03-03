@@ -4,7 +4,7 @@ import time
 
 f = open('request.csv', 'w')
 i = 1
-while i < 2: #1598:
+while i < 2:  # 1598:
     url = urls.urls[i]
     status = requests.get(url)
     print(url, status.status_code)
